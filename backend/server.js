@@ -60,6 +60,7 @@ app.post('/api/query', async (req, res) => {
 
         res.status(200).json({ message: 'Query submitted successfully' });
     } catch (err) {
+        console.error('SERVER ERROR:', err);
         res.status(500).json({ error: err.message });
     }
 });
