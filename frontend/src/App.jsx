@@ -97,7 +97,7 @@ function App() {
         <div className="hero-left reveal">
           <div className="hero-eyebrow">
             <div className="hero-eyebrow-line"></div>
-            <span className="hero-eyebrow-text">Student by title, developer by practice</span>
+            <span className="hero-eyebrow-text">The basketball guy who codes</span>
           </div>
           <h1 className="hero-name">Milan<br /><em>Singh</em><br />Khati</h1>
           <p className="hero-tagline">
