@@ -89,8 +89,8 @@ if (contactForm) {
     formStatus.style.color = 'var(--muted)';
 
     try {
-      // Connecting to the backend (assumes backend is running on port 5000)
-      const response = await fetch('http://localhost:5000/api/query', {
+      // Connecting to the backend (live on Render)
+      const response = await fetch('https://portfolio-backend-07u8.onrender.com/api/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

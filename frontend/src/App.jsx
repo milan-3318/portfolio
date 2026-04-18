@@ -62,7 +62,7 @@ function App() {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const API_URL = import.meta.env.VITE_API_URL || 'https://portfolio-backend-07u8.onrender.com';
       const response = await axios.post(`${API_URL}/api/query`, formData);
       if (response.status === 200) {
         setStatus('Message sent successfully!');
