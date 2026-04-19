@@ -194,7 +194,7 @@ function App() {
             <div className="project-desc">
               An interactive web game that teaches proper waste segregation in a way that's actually fun. Players sort different types of waste into the correct bins under time pressure. Built with HTML, CSS, JavaScript, and the MERN stack. Tracks scores so players can improve over time.
             </div>
-            <a href="https://eco-18.onrender.com/" target="_blank" rel="noopener noreferrer" className="project-link">
+            <a href="https://ewarlord.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
               View Live
               <svg viewBox="0 0 24 24" strokeWidth="2">
                 <line x1="5" y1="12" x2="19" y2="12" />
